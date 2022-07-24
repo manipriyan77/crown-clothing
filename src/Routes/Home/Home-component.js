@@ -1,7 +1,5 @@
-
-// import "./categories.styles.scss";
-
 import Directory from "../../Components/Directory/Directory-component";
+
 const Home = () => {
   const categories = [
     {
@@ -31,9 +29,7 @@ const Home = () => {
     },
   ];
 
-  return (
-   <Directory categories={categories}/>
-  );
+  return <Directory categories={categories} />;
 };
 
 export default Home;
